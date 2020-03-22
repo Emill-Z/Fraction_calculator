@@ -1,0 +1,80 @@
+@import './fonts.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo2-R', serif;
+    background-color: whitesmoke;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 12px 20px -10px rgba(76, 175, 80, .28),
+                0 4px 20px 0 rgba(0, 0, 0, .12),
+                0 7px 8px -5px rgba(76, 175, 80, .2);
+    background-color: #4caf50;
+
+    &-nav {
+        display: flex;
+        font-family: 'Baloo2-B', serif;
+        font-size: 1em;
+
+        a {
+            color: #305431;
+            text-transform: uppercase;
+            margin-right: 15px;
+            border-bottom: 1px solid transparent;
+
+            &.router-link-active {
+                color: white;
+                border-bottom: 1px solid white;
+            }
+        }
+    }
+}
+
+.link {
+    text-decoration: none;
+}
+
+.main-wrapper {
+    width: 100%;
+    padding: 50px 20px 0 20px;
+}
+
+.btn {
+    min-width: 100px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    letter-spacing: 0;
+    background-color: #9c26b0;
+    color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: #761b86;
+    }
+}
+
+input {
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    &[type=number] {
+        -moz-appearance: textfield;
+    }
+}
