@@ -82,6 +82,4 @@ const calc = postfixArr => {
 
 const calculate = infix => calc(transformToPostFix(infix));
 
-export {
-    calculate
-};
+export { calculate };

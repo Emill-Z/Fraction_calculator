@@ -11,12 +11,7 @@ const routes = [
   {
     path: '/fraction-calculator',
     name: 'FractionCalculator',
-    component: () => import('../views/calculator/FractionCalculator.vue')
-  },
-  {
-    path: '/comments',
-    name: 'Comments',
-    component: () => import('../views/Comments.vue')
+    component: () => import('./views/calculator/FractionCalculator.vue')
   },
 ]
 

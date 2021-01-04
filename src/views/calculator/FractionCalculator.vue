@@ -36,8 +36,8 @@
 import FractionBlock from '@/components/fraction-calculator/FractionBlock.vue'
 import Operation from '@/components/fraction-calculator/Operation.vue'
 import ErrorNotify from '@/components/ErrorNotify.vue'
-import * as calculatorService from './services/fraction-calculator.service'
-import { isNumeric } from './services/fractions-maths'
+import * as calculatorService from '@/services/fraction-calculator.service'
+import { isNumeric } from '@/services/fractions-maths'
 
 export default {
   name: 'FractionCalculator',

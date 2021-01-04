@@ -3,7 +3,6 @@
     <header class="header">
       <nav class="header-nav">
         <router-link class="link" to="/fraction-calculator">Fraction calculator</router-link>
-        <router-link class="link" to="/comments">Comments</router-link>
       </nav>
     </header>
 
